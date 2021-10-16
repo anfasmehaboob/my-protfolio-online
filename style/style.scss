@@ -8,6 +8,13 @@ $font-color:#333333;
     border: 2px solid $base-color;
     border-radius: 30px;
 }
+.navbar-nav{
+    li{
+        a{
+            font-size: 18px;
+        }
+    }
+}
 
 // svg menu
 .navbar-toggler{
