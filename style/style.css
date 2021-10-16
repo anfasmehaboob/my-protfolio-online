@@ -3,6 +3,10 @@
   border-radius: 30px;
 }
 
+.navbar-nav li a {
+  font-size: 18px;
+}
+
 .navbar-toggler {
   padding: 0 !important;
   border: unset !important;
