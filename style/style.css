@@ -251,7 +251,7 @@ body header a.navbar-brand img {
 }
 
 .intro_page .container-fluid .row .img_container img {
-  width: 95%;
+  width: 75%;
 }
 
 .intro_page .container-fluid .row .content_container {
@@ -284,13 +284,16 @@ body header a.navbar-brand img {
   font-weight: 300;
   color: #333333;
   text-decoration: unset;
-  -webkit-transition: 200ms ease-in;
-  transition: 200ms ease-in;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+  font-weight: 600;
 }
 
 .intro_page .container-fluid .row .content_container a:hover {
   -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
           box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  color: #fff;
+  background-color: #007CED;
 }
 
 .my_services {
@@ -546,6 +549,14 @@ body header a.navbar-brand img {
   background-color: #fff;
   border: 2px solid #007CED;
   border-radius: 30px;
+  -webkit-transition: 400ms ease-in-out;
+  transition: 400ms ease-in-out;
+  font-weight: 600;
+}
+
+.contact .container-fluid .row div.forms form input[type=submit]:hover {
+  color: #fff;
+  background-color: #007CED;
 }
 
 .infos div img {
