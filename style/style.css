@@ -4,7 +4,8 @@
 }
 
 .navbar-nav li a {
-  font-size: 18px;
+  font-size: 19px;
+  font-weight: 600;
 }
 
 .navbar-toggler {
