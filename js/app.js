@@ -21,3 +21,10 @@ $(document).ready(function(){
   submit.addEventListener('click', function(){
     alert();
   });
+
+
+  // const nightModeHandler = () =>{
+  //   alert('hey');
+  // }
+
+ 
