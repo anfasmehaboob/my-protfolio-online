@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,6 +29,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="./img/fav/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+  
   </head>
 <body>
   <div id="loader">
@@ -39,7 +41,7 @@
   </div>
 
     <!-- navbar -->
-    <header>
+    <header class="header">
         <div class="container-fluid mt-3">
             <nav class="navbar navbar-expand-lg navbar-light ">
                 <div class="container-fluid">
@@ -73,6 +75,19 @@
                       <li class="nav-item">
                         <a class="nav-link text-capitalize" href="./contact.html">contact</a>
                       </li>
+
+                      <li class="nav-item">
+                      </li>
+                        <!-- <h5 class="dark" >dark mode</h5> -->
+                        <li class="darkanddaymode">
+                          <i class="fas fa-sun"></i>
+                          <label class="switch">
+                            <input class="darkttoggle"   type="checkbox">
+                            <span class="slider round"></span>
+                          </label>
+                          <i class="fas fa-moon "></i>
+                        </li>
+                      
                       
                     </ul>
                   </div>
@@ -84,7 +99,9 @@
 <!-- navbar end -->
 
 <!-- landing page   -->
-    <div class="intro_page">
+<div class="daymode">
+    <div class="js_content">
+      <div class="intro_page">
         <div class="bub bubble1"></div>
         <div class="bub bubble2"></div>
         <div class="bub bubble3"></div>
@@ -93,10 +110,10 @@
 
         <div class="container-fluid ">
             <div class="row justify-content-between">
-                <div class="col-lg-6  img_container mt-5">
+                <div class="col-lg-6  img_container mt-lg-5">
                     <img  src="./img/Programming-amico.svg" alt="">
                 </div>
-                <div class="col-lg-6  content_container mt-5 ">
+                <div   class="col-lg-6  content_container mt-5 ">
                     <div class="contain pt-4 px-5 pb-5">
                         <h2 class="text-capitalize">Anfas mehaboob</h2>
                         <p class="mt-4 mb-5">I'm a software engineer specialised in frontend and backend development for complex scalable web apps. I write about software development on my blog. Want to know how I may help your project? Check out my project portfolio and online resume.</p>
@@ -109,7 +126,7 @@
 
 <!-- landing page end -->
 
-
+<!-- services section -->
     <div class="my_services my-5 py-5">
      
       
@@ -154,7 +171,7 @@
 
 <!-- clents -->
 
-    <div class="clients">
+    <div class="clients  mb-5 pb-5">
       <div class="container-fluid">
         <h2 class="text-capitalize mt-5 mb-3">clients</h2>
         <div class="underline mb-5"></div>
@@ -176,7 +193,7 @@
           </div>
         </div>
       </div>
-    </div>
+   
 
 
     <div class="testimonials py-5">
@@ -303,46 +320,277 @@
                   </div>
               </div>
             </div>
-        </div>
+          </div>
 
 
-        <div class="col-lg-4 col-md-4 projects_container my-4">
-          <div class="img-container">
-            <img  src="./img/pexels-tiia-pakk-4350767.jpg" alt="">
-            <div class="overlay">
-                <div class="content px-3">
-                  <h5 class="text-white mb-4">Yemra</h5>
-                  
-                  
-                  <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est laudantium provident</p>
-                  <a class="px-3 py-2" href="">view more <i class="fas fa-angle-right"></i></a>
-                </div>
+          <div class="col-lg-4 col-md-4 projects_container my-4">
+            <div class="img-container">
+              <img  src="./img/pexels-tiia-pakk-4350767.jpg" alt="">
+              <div class="overlay">
+                  <div class="content px-3">
+                    <h5 class="text-white mb-4">Yemra</h5>
+                    
+                    
+                    <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est laudantium provident</p>
+                    <a class="px-3 py-2" href="">view more <i class="fas fa-angle-right"></i></a>
+                  </div>
+              </div>
             </div>
           </div>
-      </div>
-
-          
-
-         
-
-       
-
-
-          
-
-
-          
-
-          
         </div>
+      </div>
+    </div>
+    </div>
+  </div>
 
-       
- 
+<div class="nightmode">
+    <div class="js_content">
+      <div class="intro_page_dark">
+        <div class="bub bubble1"></div>
+        <div class="bub bubble2"></div>
+        <div class="bub bubble3"></div>
+        <div class="bub bubble4"></div>
+
+
+        <div class="container-fluid ">
+            <div class="row justify-content-between">
+                <div class="col-lg-6  img_container mt-lg-5">
+                    <img  src="./img/Programming-amico.svg" alt="">
+                </div>
+                <div   class="col-lg-6  content_container mt-5 ">
+                    <div class="contain pt-4 px-5 pb-5">
+                        <h2 class="text-capitalize">Anfas mehaboob</h2>
+                        <p class="mt-4 mb-5">I'm a software engineer specialised in frontend and backend development for complex scalable web apps. I write about software development on my blog. Want to know how I may help your project? Check out my project portfolio and online resume.</p>
+                        <a class="my_button mt-2 px-5 py-3 text-capitalize" href="./files/Anfas resume.pdf" download="AnfasCV">download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- landing page end -->
+
+<!-- services section -->
+    <div class="my_services_dark my-5 py-5">
+     
+      
+      <div class="container-fluid">
+        <h2 class="text-capitalize mt-5 mb-3">my service</h2>
+        <div class="underline mb-5"></div>
+        <div class="row justify-content-between pt-5">
+          <div class="row col-lg-6 col-md-6 justify-content-between mb-5 p-4">
+            <div class="col-lg-2 col-md-4 col-sm-4 col-6"><img class="w-100" src="./img/web-design.png" alt=""></div>
+            <div class="col-lg-10 col-md-12">
+              <h5>front-end development </h5>
+              <p>develop complex design with quality code using html css and javascript for front-end functionalities</p>
+            </div>
+          </div>
+
+          <div class="row col-lg-6 col-md-6 justify-content-between mb-5 p-4">
+            <div class="col-lg-2 col-md-4 col-sm-4 col-6"><img class="w-100" src="./img/monitor.png" alt=""></div>
+            <div class="col-lg-10 col-md-14">
+              <h5 class="text-capitalize ">web app development  </h5>
+              <p>develop web application with javascript framework vue.js and react.js . backend with django rest_framework </p>
+            </div>
+          </div>
+
+          <div class="row col-lg-6 col-md-6 justify-content-between mt-5 p-4">
+            <div class="col-lg-2 col-md-4 col-sm-4 col-6"><img class="w-100" src="./img/responsive-design.png" alt=""></div>
+            <div class="col-lg-10 col-md-12">
+              <h5 class="text-capitalize ">responsive design  </h5>
+              <p>website or web app design compatible to all device from desktop view to mobile view .</p>
+            </div>
+          </div>
+
+          <div class="row col-lg-6 col-md-6 justify-content-between mt-5 p-4">
+            <div class="col-lg-2 col-md-4 col-sm-4 col-6"><img class="w-100" src="./img/icons8-backend-development-96.png" alt=""></div>
+            <div class="col-lg-10 col-md-12">
+              <h5 class="text-capitalize ">back-end development </h5>
+              <p>Back-end development of website, web app, and mobile applications. uses Python Django and Django rest framework for back end development </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
+<!-- clents -->
+
+    <div class="clients_dark mb-5 pb-5">
+      <div class="container-fluid ">
+        <h2 class="text-capitalize mt-5 mb-3">clients</h2>
+        <div class="underline mb-5"></div>
+
+        <div class="slick-carsole">
+          <div class="autoplay">
+
+            <div class="clients_img_container">
+              <img class="yemra" src="./img/clients/stll@3x-100.jpg" alt="">
+            </div>
+            <div class="clients_img_container">
+              <img class="digicard"  src="./img/clients/logo-white-fit.png" alt="">
+            </div>
+            
+            
+            </div>
+           
+            
+          </div>
+        </div>
+      </div>
+   
+
+
+    <div class="testimonials_dark py-5">
+      <div class="container-fluid">
+        <h2 class="text-capitalize mt-5 mb-3">testimonials</h2>
+        <div class="underline mb-5"></div>
+        <div>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row justify-content-between mb-5">
+                  <div class="col-lg-5 glass_container my-4 mx-4 p-5">
+                    <p>"Lorem ipsum dolor sit amet consectetur Itaque  amet consectetur  Itaque  amet consectetur  Itaque  amet consectetur  Itaque  amet consectetur  Itaque  iusto ipsa, explicabo "</p>
+                    <div class="row customer_detail mt-5"> 
+                      <div class="col-lg-3">
+                        <img class=" rounded-circle" src="./img/cutomer.jpg" alt="">
+                      </div>
+                      <div class="col-lg-6 mt-3">
+                        <h5>customer name</h5>
+                        <p>founder ceo sanjari</p>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="col-lg-5 glass_container my-4 mx-4 p-5">
+                    <p>"Lorem ipsum dolor sit amet consectetur Itaque  amet consectetur  Itaque  amet consectetur  Itaque  amet consectetur  Itaque  amet consectetur  Itaque  iusto ipsa, explicabo "</p>
+                    <div class="row customer_detail mt-5"> 
+                      <div class="col-lg-3">
+                        <img class=" rounded-circle" src="./img/cutomer.jpg" alt="">
+                      </div>
+                      <div class="col-lg-6 mt-3">
+                        <h5>customer name</h5>
+                        <p>founder ceo sanjari</p>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="carousel-item">
+                
+
+                <div class="row justify-content-between mb-5">
+                  <div class="col-lg-5 glass_container my-4 mx-4 p-5">
+                    <p>"Lorem ipsum dolor sit amet consectetur Itaque  amet consectetur  Itaque  amet consectetur  Itaque  amet consectetur  Itaque  amet consectetur  Itaque  iusto ipsa, explicabo "</p>
+                    <div class="row customer_detail mt-5"> 
+                      <div class="col-lg-3">
+                        <img class=" rounded-circle" src="./img/cutomer.jpg" alt="">
+                      </div>
+                      <div class="col-lg-6 mt-3">
+                        <h5>customer name</h5>
+                        <p>founder ceo sanjari</p>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="col-lg-5 glass_container my-4 mx-4 p-5">
+                    <p>"Lorem ipsum dolor sit amet consectetur Itaque  amet consectetur  Itaque  amet consectetur  Itaque  amet consectetur  Itaque  amet consectetur  Itaque  iusto ipsa, explicabo "</p>
+                    <div class="row customer_detail mt-5"> 
+                      <div class="col-lg-3">
+                        <img class=" rounded-circle" src="./img/cutomer.jpg" alt="">
+                      </div>
+                      <div class="col-lg-6 mt-3">
+                        <h5>customer name</h5>
+                        <p>founder ceo sanjari</p>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+
+
+
+
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- projects section  -->
+    <div class="projects_dark">
+      <div class="container-fluid">
+        <h2 class="text-capitalize mt-5 mb-3">projects</h2>
+        <div class="underline mb-5"></div>
+
+        <div class="row justify-content-between">
+
+          <div class="col-lg-4 col-md-4 projects_container my-4">
+              <div class="img-container">
+                <img  src="./img/pexels-tiia-pakk-4350767.jpg" alt="">
+                <div class="overlay">
+                    <div class="content px-3">
+                      <h5 class="text-white mb-4"> Sanjari blog</h5>
+                      
+                      
+                      <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est laudantium provident</p>
+                      <a class="px-3 py-2" href="">view more <i class="fas fa-angle-right"></i></a>
+                    </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 projects_container my-4">
+            <div class="img-container">
+              <img  src="./img/pexels-tiia-pakk-4350767.jpg" alt="">
+              <div class="overlay">
+                  <div class="content px-3">
+                    <h5 class="text-white mb-4"> Crm </h5>
+                    
+                    
+                    <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est laudantium provident</p>
+                    <a class="px-3 py-2" href="">view more <i class="fas fa-angle-right"></i></a>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-4 projects_container my-4">
+            <div class="img-container">
+              <img  src="./img/pexels-tiia-pakk-4350767.jpg" alt="">
+              <div class="overlay">
+                  <div class="content px-3">
+                    <h5 class="text-white mb-4">Yemra</h5>
+                    
+                    
+                    <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est laudantium provident</p>
+                    <a class="px-3 py-2" href="">view more <i class="fas fa-angle-right"></i></a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+    <!-- end  -->
+
     <!-- footer section -->
-    <footer class="py-4 mt-5">
+    <footer class=" footer py-4 mt-5">
       <div class="container-fluid">
         <div class="row justify-content-between">
           <div class="col-lg-4 col-md-4 col-sm-12 copy"> 
@@ -373,6 +621,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./js/app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   
 
   </body>
