@@ -62,6 +62,8 @@ $(document).ready(function(){
   document.body.classList.add("main_dark_bg");
   document.querySelector('.footer').classList.add("footer_dark_bg")
   document.querySelector('.header').classList.add("header_dark_bg")
+  document.querySelector('#loader').classList.add('loader_dark')
+  document.querySelector('#loader').classList.remove('loader')
   document.querySelector('.darkttoggle').checked = true;
  
  }else{
@@ -70,6 +72,8 @@ $(document).ready(function(){
   document.body.classList.remove("main_dark_bg");
   document.querySelector('.footer').classList.remove("footer_dark_bg")
   document.querySelector('.header').classList.remove("header_dark_bg")
+  document.querySelector('#loader').classList.remove('loader_dark')
+  document.querySelector('#loader').classList.add('loader')
   document.querySelector('.darkttoggle').checked = false;
   
  }
