@@ -140,6 +140,9 @@ z-index: 1;
 
 }
 
+.logo_night{
+    display: none;
+}
 
 
 html{
@@ -148,7 +151,7 @@ html{
 
 body{
     overflow-x: hidden;
-    position: absolute;
+  
     header{
         padding-left: 5%;
         padding-right: 5%;
