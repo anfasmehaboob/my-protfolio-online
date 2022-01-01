@@ -41,6 +41,8 @@ $(document).ready(function(){
         document.body.classList.add("main_dark_bg");
         document.querySelector('.footer').classList.add("footer_dark_bg")
         document.querySelector('.header').classList.add("header_dark_bg")
+        document.querySelector('.logo_day').style.display = 'none';
+  document.querySelector('.logo_night').style.display = 'block';
         localStorage.setItem("dark","1")
         
       }else{
@@ -50,6 +52,8 @@ $(document).ready(function(){
         document.body.classList.remove("main_dark_bg");
         document.querySelector('.footer').classList.remove("footer_dark_bg")
         document.querySelector('.header').classList.remove("header_dark_bg")
+        document.querySelector('.logo_day').style.display = 'block'
+        document.querySelector('.logo_night').style.display = 'none'
         localStorage.setItem("dark","0")
       }
   })
@@ -62,6 +66,8 @@ $(document).ready(function(){
   document.body.classList.add("main_dark_bg");
   document.querySelector('.footer').classList.add("footer_dark_bg")
   document.querySelector('.header').classList.add("header_dark_bg")
+  document.querySelector('.logo_day').style.display = 'none';
+  document.querySelector('.logo_night').style.display = 'block';
   document.querySelector('#loader').classList.add('loader_dark')
   document.querySelector('#loader').classList.remove('loader')
   document.querySelector('.darkttoggle').checked = true;
@@ -73,6 +79,8 @@ $(document).ready(function(){
   document.querySelector('.footer').classList.remove("footer_dark_bg")
   document.querySelector('.header').classList.remove("header_dark_bg")
   document.querySelector('#loader').classList.remove('loader_dark')
+  document.querySelector('.logo_day').style.display = 'block';
+  document.querySelector('.logo_night').style.display = 'none';
   document.querySelector('#loader').classList.add('loader')
   document.querySelector('.darkttoggle').checked = false;
   
