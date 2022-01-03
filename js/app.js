@@ -16,6 +16,10 @@ $(document).ready(function(){
   });
 
 
+  const dateYear = new Date(); 
+  // console.log(document.querySelector('.dateYear').innerHTML)
+
+  document.querySelector('.dateYear').innerText = dateYear.getFullYear()
 
 
   const submit = document.querySelector('#submit');
